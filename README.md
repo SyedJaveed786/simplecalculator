@@ -28,12 +28,13 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “calculator operation”.
-Developed by: SYED JAVEED H
+Developed by:SYED JAVEED H
 Registeration Number : 212221220055
 */
 ```
 ## ACTIVITY_MAIN.XML
-```<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+```
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -106,6 +107,7 @@ Registeration Number : 212221220055
         android:layout_alignStart="@+id/divideButton"/>
 
 </RelativeLayout>
+
 ```
 ## MAINACTIVITY.JAVA
 ```
@@ -193,12 +195,12 @@ public class MainActivity extends AppCompatActivity {
         resultTextView.setText(String.valueOf(result));
     }
 }
+
 ```
 
-
 ## OUTPUT
-![image](https://github.com/SyedJaveed786/simplecalculator/assets/106874713/b055c646-321a-4ae1-ae64-a9eadc592ad1)
 
+![323460347-fbdee9f0-29ab-4333-9ded-e7a47487d7bd](https://github.com/yuvaraj-csk/simplecalculator/assets/134052574/7bd252eb-e990-4c09-bc2e-cf25ce8bc391)
 
 
 
